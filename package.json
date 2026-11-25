@@ -1,0 +1,16 @@
+{
+  "name": "the-mundane-madness",
+  "version": "1.0.0",
+  "description": "THE MUNDANE MADNESS — modern cosmic horror RPG party app (standalone, deployable). Character creator & sheets, class skill decks, dice simulator, party chat, Deicity hex map with District 1 ID-card gate.",
+  "license": "UNLICENSED",
+  "private": true,
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
