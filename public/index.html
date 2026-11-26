@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>THE MUNDANE MADNESS — Deicity</title>
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<header>
+  <div class="brand">
+    <h1>THE MUNDANE MADNESS</h1>
+    <p>Welcome to Deicity. Try not to look too closely.</p>
+  </div>
+  <div class="clock" id="clockBox" title="Waktu in-game (GM)">
+    <span id="clockLabel">Hari 1 · 08:00</span>
+    <button data-advance="1">+1 Jam</button>
+    <button data-advance="6">+6 Jam</button>
+    <button data-advance="24">+1 Hari</button>
+  </div>
+</header>
+
+<nav id="tabs">
+  <button data-tab="party" class="active">Party</button>
+  <button data-tab="creator">+ Karakter</button>
+  <button data-tab="sheet">Sheet</button>
+  <button data-tab="deck">Deck Skill</button>
+  <button data-tab="dadu">Dadu</button>
+  <button data-tab="chat">Chat</button>
+  <button data-tab="peta">Peta</button>
+</nav>
+
+<main>
+  <section id="tab-party" class="tab active"></section>
+  <section id="tab-creator" class="tab"></section>
+  <section id="tab-sheet" class="tab"></section>
+  <section id="tab-deck" class="tab"></section>
+  <section id="tab-dadu" class="tab"></section>
+  <section id="tab-chat" class="tab"></section>
+  <section id="tab-peta" class="tab"></section>
+</main>
+
+<div id="toast" role="status"></div>
+<div id="rollLogFloat"><h3>Log Roll</h3><div id="rollLog"></div></div>
+
+<script src="/data.js"></script>
+<script src="/app.js"></script>
+</body>
+</html>
